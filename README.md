@@ -16,7 +16,7 @@ $ sudo npm install -g aws-cdk
 
 Setup CDK project
 ```
-$ git clone git@github.com:manujakau/aws-cdk-infra-01.git
+$ git clone git@github.com:manujakau/aws-infra-via-cdk.git
 ```
 
 Then follow the below steps to complete rest.
