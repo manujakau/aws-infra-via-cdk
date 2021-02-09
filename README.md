@@ -21,6 +21,9 @@ $ git clone git@github.com:manujakau/aws-cdk-infra-01.git
 
 Then follow the below steps to complete rest.
 ```
+$ mkdir <project name> && cd <project name>
+$ cdk init
+$ cdk init --language python
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 $ pip3 install -r requirements.txt
@@ -29,8 +32,6 @@ $ pip3 install -r requirements.txt
 At this point you can now synthesize the CloudFormation template for this code.
 
 ```
-$ cdk init
-$ cdk init --language python
 $ cdk bootstrap
 $ cdk ls
 $ cdk synth
